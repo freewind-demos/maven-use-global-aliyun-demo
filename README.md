@@ -54,6 +54,19 @@ Add aliyun as a mirror of `central` to `~/.m2/settings.xml`:
 </mirrors>
 ```
 
+or use the superset of maven central -- jcenter:
+
+```
+<mirrors>
+    <mirror>
+          <id>alimaven</id>
+          <name>aliyun jcenter</name>
+          <url>http://maven.aliyun.com/nexus/content/repositories/jcenter</url>
+          <mirrorOf>central</mirrorOf>
+    </mirror>
+</mirrors>
+```
+
 Test
 ----
 
